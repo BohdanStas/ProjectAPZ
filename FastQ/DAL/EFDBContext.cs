@@ -17,6 +17,7 @@ namespace DAL.Entity
         : base(options)
         {
         }
+       
     }
 
     public class EFDBContextFactory : IDesignTimeDbContextFactory<EFDbContext>
